@@ -73,7 +73,7 @@ c.xlsx('input.pdf', 'output.xlsx')
 
   ### Step 1: 
    Create a new Python script then add the following code:
-    ```py
+   ```py
 
 import os
 import sys
