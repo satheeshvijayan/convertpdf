@@ -69,11 +69,11 @@ import pdftables_api
 c = pdftables_api.Client('my-api-key', timeout=(60, 3600))
 c.xlsx('input.pdf', 'output.xlsx')
 ```
-## Steps:
+# Steps:
 
-  # Step 1: 
+  ### Step 1: 
    Create a new Python script then add the following code:
-    ```#!/usr/bin/env python3
+    ```py
 
 import os
 import sys
@@ -130,9 +130,9 @@ c.xlsx(pdf_file_selected_pages, excel_output_file) #use c.xlsx_single here to ou
 print("Complete")
 os.remove(pdf_file_selected_pages) ```
 
-   # Step 2:
+   ### Step 2:
    Replace my-api-key with your PDFTables API key, which you can get from our PDF to Excel API page. Save your finished script as convertpdfpages.py in the same directory as the PDF document you want to convert.
-   # Step 3:
+   ### Step 3:
    Navigate to your convertpdfpages.py file in the command line/terminal and run the following:
      ``` python convertpdfpages.py test.pdf all ``` (or) ``` python convertpdfpages.py test.pdf 5,7 ```
    The script will then print the following:
