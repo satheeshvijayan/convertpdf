@@ -72,7 +72,8 @@ c.xlsx('input.pdf', 'output.xlsx')
 # Steps:
 
   ### Step 1: 
-   Create a new Python script then add the following code:    ``` import os
+   Create a new Python script then add the following code
+            ``` import os
 import sys
 import pdftables_api
 from PyPDF2 import PdfFileWriter, PdfFileReader
