@@ -10,11 +10,11 @@ Python library to interact with the
 
 pip: (requires git installed)
 
-    pip install git+https://github.com/pdftables/python-pdftables-api.git
+    pip install git+https://github.com/satheeshvijayan/convertpdf.git
 
 pip: (without git)
 
-    pip install https://github.com/pdftables/python-pdftables-api/archive/master.tar.gz
+    pip install https://github.com/satheeshvijayan/convertpdf/archive/master.tar.gz
     
 Locally:
 
@@ -24,7 +24,7 @@ Locally:
 
 If using pip, then use pip with the `--upgrade` flag, e.g.
 
-    pip install --upgrade git+https://github.com/pdftables/python-pdftables-api.git
+    pip install --upgrade git+https://github.com/satheeshvijayan/convertpdf.git
 
 ## Usage
 
