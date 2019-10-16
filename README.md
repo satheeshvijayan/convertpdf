@@ -72,8 +72,7 @@ c.xlsx('input.pdf', 'output.xlsx')
 # Steps:
 
   ### Step 1: 
-   Create a new Python script then add the following code:
-   ```py
+   Create a new Python script then add the following code:    ```py
 
 import os
 import sys
@@ -139,4 +138,3 @@ os.remove(pdf_file_selected_pages) ```
    ``` Converting all pages    Complete ```    (or) ``` Converting pages: 5, 7
 Complete```
    This means that the conversion was successful. You’ll find your output XLSX in the same folder as the script and example PDF.
-
